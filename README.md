@@ -3,9 +3,9 @@ Codes for transcriptome-microarray analysis
 
 # PASO 0: ¿De qué trata este repositorio?
 ```r
-En este repositorio se presentan comandos para la identificacion de los genes y proteinas que forman parte de la libreria
-de microarreglos empleada en el "analisis previo".
-
+En este repositorio se presentan comandos para la identificacion de los genes
+y proteinas que forman parte de la libreria de microarreglos empleada en el
+"analisis previo".
 ```
 
 # PASO 1: BLAST vs NR-NCBI, obtencion de archivos (csv y tsv)
@@ -160,7 +160,7 @@ write.table(nuevos,"hits_4.txt",col.names=F,row.names=F,quote=F)
 ## identificar las caracteristicas de los transcritos
 ```
 
-# PASO 2: Anotación de los contigs con TRANSDECODER + EGGNOGMAPPER 
+# PASO 3: Anotación de los contigs con TRANSDECODER + EGGNOGMAPPER 
 ```r
 ## Otra forma de obtener informacion de los transcritos
 ## es inferir los ORFs, péptidos y anotarlos con EGGNOG MAPPER 
