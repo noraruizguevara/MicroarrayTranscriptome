@@ -3,9 +3,9 @@ Codes for transcriptome-microarray analysis
 
 # PASO 0: ¿De qué trata este repositorio?
 ```r
-En este repositorio se presentan comandos para la identificacion de los genes
-y proteinas que forman parte de la libreria de microarreglos empleada en el
-"analisis previo".
+En este repositorio se presentan comandos para:
+1. la identificacion de los genes y proteinas que forman parte de la libreria de microarreglos empleada en el "analisis previo".
+2. la correspondencia de cada gen del "analisis previo" con el meta-transcriptoma y el pan-transcriptoma.
 ```
 
 # PASO 1: BLAST vs NR-NCBI, obtencion de archivos (csv y tsv)
